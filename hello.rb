@@ -12,6 +12,5 @@ get '/' do
 
   }"
   
-  sprintf "%s", sq.execute_query 
-  #puts sq.execute_query
+  sq.execute_query.inspect
 end
