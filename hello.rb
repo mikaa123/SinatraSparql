@@ -13,5 +13,6 @@ get '/' do
 
   }"
   
-  puts sq.execute_query
+  "hhmmmm"
+  #puts sq.execute_query
 end
