@@ -5,13 +5,17 @@
 input.textfield,
 textarea
 {
-	padding:7px;
 	font:normal 13px 'Lucida Grande',Helvetica,Arial,sans-serif;
 	color:#222;
 	background: #fff url(fondblanc.png) repeat-x;
 	outline:0;
-	margin: 0 0 20px;
 	border: 5px solid #242526;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-left: 0;
 }
 
 #header {
