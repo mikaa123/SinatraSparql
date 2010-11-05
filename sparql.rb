@@ -5,7 +5,6 @@ require 'haml'
 require 'uri'
 
 get '/' do
-  test = "coucou"
   haml :index
 end
 
