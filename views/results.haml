@@ -1,0 +1,8 @@
+%table
+	%tr
+		-variables.each do |var|
+			%th=var
+		-results.each do |result|
+			%tr
+				-result.each do |k, v|
+					%td=v.gsub(/(.*)[\/#](.*)/, '\2')

@@ -1,2 +1,2 @@
-require 'hello'
+require 'sparql'
 run Sinatra::Application

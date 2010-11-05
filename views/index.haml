@@ -1,0 +1,38 @@
+#content
+	#sparql
+		%p
+			%span.blue Hello.
+			Here you can make a legit sparql query.
+		%form{:action => "/results", :method => "get"}
+			#box
+				%textarea{:name => "query", :rows => 10, :cols => 70}~(params[:query] || "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX dbpedia: <http://dbpedia.org/ontology/>\n\nSELECT ?subject\nWHERE\n{\n\t?subject rdf:type dbpedia:Person\n}")
+			#rightbox
+				#infobox
+					%p
+						Enter your request and get the results
+				%input.btn{:type => "submit", :value => "Gimme the results"}
+			
+#results
+	-if defined? var[:results]
+		#result
+			%p 
+				Enjoy. Here are your
+				%span.blue results
+			#service
+				%input{:type=> "text", :value => var[:xml_url]}
+
+		-if var[:results].length > 20 and not params[:full]
+			=haml :results, :locals => {:variables => var[:variables], :results => var[:results][1..20]}
+								
+			%p 
+				showing
+				20 results out of
+				%span.blue="#{var[:total_res]}."
+				%a{:title => "show more", :href => var[:full_url]} Show more
+				
+		-else
+			=haml :results, :locals => {:variables => var[:variables], :results => var[:results]}
+			
+			
+	#about
+		%p That's all folks!

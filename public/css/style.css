@@ -1,0 +1,262 @@
+/* @override http://localhost:4567/css/style.css */
+
+/* @override http://localhost:4567/css/style.css */
+
+input.textfield,
+textarea
+{
+	padding:7px;
+	font:normal 13px 'Lucida Grande',Helvetica,Arial,sans-serif;
+	color:#222;
+	background: #fff url(fondblanc.png) repeat-x;
+	outline:0;
+	margin: 0 0 20px;
+	border: 5px solid #242526;
+}
+
+#header {
+	background: #cfd6db url(fondnoir.png) repeat-x 0 93px;
+	height: 130px;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #242526;
+}
+
+input.textfield,
+textarea{
+	width:480px;
+	font-family:Georgia, Times, "Times New Roman", serif;
+	font-size:15px;
+	//border: 1px solid #3e3e3e;
+	color: #aeb4ba;
+}
+
+textarea:focus {
+	color: #242526;
+}
+
+p {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#box {
+	float: left;
+}
+
+input.submit {
+	width: 30px;
+}
+
+#header h1 {
+	width: 500px;
+	font: normal normal 100px/60px Helvetica;
+	margin: 0 auto;
+	text-shadow:0px 1px 0px #fff;
+	color: #242526;
+	padding-top: 5px;
+}
+
+#head {
+	height: 30px;
+	background: #242526 url(fondnoir2.png) repeat-x 0 19px;
+}
+
+#little {
+	color: #77afc1;
+	line-height: 20px;
+	font-weight: normal;
+	font-size: 30px;
+	padding-left: 250px;
+	text-shadow: none;
+}
+
+#results {
+	clear: both;
+	background: #242526 url(fondnoir3.png) repeat-x;
+}
+
+#content {
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0;
+	background-color: #303232;
+	height: 270px;
+}
+
+#about p {
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+	color: #a3a8ad;
+}
+
+#menu a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #a3a8ad;
+	margin-right: 20px;
+}
+
+#result {
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#results table {
+	margin-top: 30px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	line-height: 20px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#results table tbody tr td {
+	color: #a3a8ad;
+	font-size: 11px;
+}
+
+#results table tbody tr td:hover {
+	color: #ffffff;
+}
+
+#results table tbody tr th {
+	text-align: left;
+
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#results p {
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#results p a {
+	color: #a3a8ad;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#results p a:hover {
+	color: #ffffff;
+}
+
+#result p {
+	margin: 0;
+	padding-top: 15px;
+}
+
+.blue {
+	color: #77afc1;
+}
+
+#menu a:hover {
+	color: #ffffff;
+}
+
+#menu {
+	padding-top: 5px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sparql {
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content p {
+	margin-right: auto;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#infobox p {
+
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #ffffff;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#infobox {
+	float: right;
+	width: 200px;
+	background-color: #242526;
+		-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 20px;
+}
+input.btn {
+	font-size:13px;
+	padding:5px 12px 5px 12px;
+	color:#ffffff;
+	cursor:pointer;
+	background-color: #303233;
+	border: 1px solid #cfd6db;	
+}
+
+input {
+	font-size:13px;
+	padding:5px 12px 5px 12px;
+	color:#ffffff;
+	background-color: #303233;
+	border: 1px solid #cfd6db;
+}
+
+#service {
+	padding: 10px;
+	margin-top: 15px;
+	background-color: #303232;
+			-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#service input {
+	background-color: #242526;
+	width: 670px;
+}
+
+#service p {
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+input.btn:hover {
+	background-color: #8cd058;
+}
+
+#rightbox {
+	float: right;
+	width: 200px;
+}
